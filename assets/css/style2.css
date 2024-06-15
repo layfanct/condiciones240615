@@ -1,0 +1,44 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sticker-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker img {
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.sticker input {
+    margin-top: 10px;
+    width: 60px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
